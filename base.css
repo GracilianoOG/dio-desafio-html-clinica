@@ -72,3 +72,24 @@ input, textarea {
 .obrigatorio {
     color: rgb(255, 0, 0);
 }
+
+/* table, td, th {
+    border: 1px solid black;
+} */
+
+thead tr {
+    background-color: #5becff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #c6f2ff;
+}
+
+tbody tr:hover {
+    background-color: #a2e5fa;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
