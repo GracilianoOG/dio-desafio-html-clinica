@@ -33,6 +33,21 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(58, 53, 73);
     min-height: 150px;
+    padding: 0 20px;
+}
+
+.footer .texto {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.contato {
+    color: #c6f2ff;
+}
+
+.contato-img {
+    display: inline-block;
+    width: 16px;
 }
