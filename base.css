@@ -43,11 +43,32 @@ body {
     text-align: center;
 }
 
-.contato {
+.content .contato {
+    color: #a35b5b;
+}
+
+.footer .contato {
     color: #c6f2ff;
 }
 
 .contato-img {
     display: inline-block;
     width: 16px;
+}
+
+.form-grupo {
+    padding: 5px 0;
+}
+
+label {
+    display: block;
+}
+
+input, textarea {
+    padding: 5px;
+    width: 300px;
+}
+
+.obrigatorio {
+    color: rgb(255, 0, 0);
 }
